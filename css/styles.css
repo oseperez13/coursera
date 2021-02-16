@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-image: url("/images/IM5CYJ.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header-nav{
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+	box-shadow: 0px 0px 15px 0px black;
+} 
+
+
+.navbar-brand h1 {
+	color: orange;
+	font-size: 2.5em;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px slategray;
+	list-style: .75;
+	vertical-align: center;
+	font-family: Courier;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+} 
+
+
+#nav-list {
+  	margin-top: 10px;
+}
+#nav-list a {
+  	color: #951C49;
+  	text-align: center;
+  	font-family: Helvetica;
+}
+
+#nav-list a:hover {
+  	background: #E7E7E7;
+}
+#nav-list a span {
+  	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  	border: 1px solid gray;
+  	background-color: orange;
+}
+.navbar-header button.navbar-toggle {
+  	clear: both;
+  	margin-top: -30px;
+}
+
+#nav-list {
+
+}
+
+#nav-list a {
+	color: slategray;
+	margin-right: 15px;
+	background-color: black;
+}
+
+#nav-list a:hover {
+	background: orange;
+	color:white;
+	text-shadow: 1px 1px 1px black;
+}
+/*  Welcome */
+
+
+
+#welcome {
+
+}
+
+.hello	{
+	margin-left: 20vw;
+	width: 30vw;
+	height: auto;
+	margin-bottom: 20px;
+	float: left;
+}
+
+
+.hello h1 {
+	color: orange;
+	font-size:60px;
+	font-family: courier;
+	margin-top: -10px;
+}
+
+.hello p {
+	color: white;
+	font-size: 26px;
+	font-family: courier;
+
+}
+/*  Services*/
+
+#info {
+	background-color: white;
+	border: 1px solid slategray;
+	width:100vw;
+	box-shadow: 5px 5px 5px 5px black;
+}
+
+.about {
+	text-align: center;
+}
+
+
+.about h2 {
+	font-size: 36px;
+}
+
+
+
+#welcome {
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.line {
+  height: 3px;
+  width: 100px;
+  position: relative;
+  top: -12px;
+  display: inline-block;
+  background-color: #999;
+}
+
+.line.about {
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
+.section-title {
+  font-family: sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-title.about {
+  color: rgba(0, 0, 0, 0.54);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.section-banner {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Footer*/
+
+.panel-footer {
+	background: black;
+	/*box-shadow: 15px 0px 15px 0px black;*/
+	border-top: 0;
+}
+
+.panel-footer p {
+	color: white;
+}
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.hello h1 {
+	font-size: 24px;
+}
+
+.hello p {
+	font-size: 16px;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.hello h1 {
+	font-size: 24px;
+}
+
+.hello p {
+	font-size: 16px;
+}
+
+}

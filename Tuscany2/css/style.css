@@ -1,0 +1,349 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/veg-table.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.navbar{
+  background-color: #680000;
+  box-shadow: 0px 0px 40px 0px black;
+  opacity: .9;
+  height: 160px;
+}
+
+.navbar-brand {
+  margin-left: 15%;
+  margin-right: 10%;
+  opacity: 1;
+}
+
+
+
+
+.navbar a {
+  color: white;
+  font-size: 20px;
+  opacity: 1;
+}
+
+.navbar a:hover {
+  color: green;
+  font-size: 20px;
+  opacity: 1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.navbar li {
+  color: white;
+  font-size: 20px;
+  opacity: 1;
+  margin-left: 40px;
+}
+
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+/* Page Name*/
+
+
+.topname {
+  background-color: rgb(240,240,240, .2);
+  width: 70%;
+  margin-left: 15%;
+  border-radius:  25px;
+  text-align: center;
+}
+
+.topname h1 {
+  font-family: 'Marck Script', cursive;
+  color: white;
+  font-size: 6.8em;
+  text-shadow: 3px 3px 3px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.topname h2 {
+  font-family: 'oxigen', cursive;
+  color: #680000;
+  font-size: 2.8em;
+  text-shadow: 3px 3px 3px #222;
+  margin-top: -20px;
+  margin-bottom: 0;
+}
+
+
+.toptiles {
+  background-color: rgb(240,240,240, .2);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+  border-radius:  25px;
+
+}
+
+#tiles{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+#horario-tile, #especiales, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  /*border-radius: 20px;*/
+  box-shadow: 0px 0px 40px 0px black;
+}
+#horario-tile:hover, #especiales:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#horario-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#especiales-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+#horario-tile span, #especiales span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+
+
+
+
+/* Inicio del Menu */
+
+
+#our_menu {
+  background-color: rgb(240,240,240, .2);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+  border-radius:  25px;
+}
+
+.page_title h3 {
+  font-size: 40px;
+}
+
+/*Menu starts*/
+
+.menu_tab {
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #222;
+
+
+}
+.nav-item {
+    display: inline-block;
+    text-align: center;
+}
+.nav-tabs .nav-link{
+    transition: .3s;
+}
+.nav-tabs .nav-link.active {
+    background: #680000;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #c0392b;
+    text-transform: capitalize;
+}
+.nav-link {
+    color: #000;
+    width: 300px;
+}
+.nav-tabs .nav-link:hover {
+    background: #680000;
+    color: #fff;
+    border: 1px solid #c0392b;
+}
+.single_menu {
+    position: relative;
+    margin-bottom: 75px;
+    transition: .3s;
+}
+.single_menu:hover img{
+
+
+}
+.single_menu img {
+    width: 33%;
+    position: absolute;
+    height: 140px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px black;
+}
+.menu_content {
+    padding-left: 200px;
+}
+.menu_content h4 {
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px dashed #c0392b;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.menu_content h4 span {
+    font-size: 25px;
+    font-weight: 900;
+    float: right;
+    font-style: italic;
+    color: #680000;
+}
+.menu_content p {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.menu_btn.btn.btn-danger {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+}
+/*Menu ends*/
+.menu_btn.btn.btn-danger {
+  margin: 0 auto;
+  display: block;
+  width: 140px;
+}
+.btn.btn-danger {
+  background: #680000;
+  border: 1px solid #c0392b;
+  transition: .3s;
+  position: relative;
+  z-index: 1;
+  text-transform: capitalize;
+  font-weight: 700;
+  overflow: hidden;
+  padding: 15px 25px;
+}
+.btn.btn-danger::before {
+  position: absolute;
+  content: '';
+  background: #680000;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: 100%;
+  transition: .3s;
+  z-index: -1;
+}
+.btn.btn-danger:hover:before{
+    top: 0;
+    left: 0;
+}
+
+
+/* Desktop view options */
+
+@media (min-width: 992px) {
+
+
+}
+
+
+/* Tablet view options */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.nav-link {
+    color: #000;
+    width: 150px;
+}
+}
+
+
+/* Mobile view options */
+
+@media (max-width: 767px) {
+.nav-link {
+    color: #000;
+    width: 120px;
+}
+
+.menu_tab {
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #222;
+}
+
+#our_menu {
+  background-color: rgb(240,240,240, .2);
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  border-radius:  25px;
+}
+
+.page_title h3 {
+  font-size: 30px;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  color: white;
+  font-size: 3.8em;
+  text-shadow: 3px 3px 3px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-top: -15%;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 0 auto;
+  text-shadow: 3px 3px 3px #222;
+  color: white;
+}
+
+
+.topname {
+  background-color: rgb(240,240,240, .2);
+  width: 98%;
+  margin-left: 1%;
+  border-radius:  25px;
+  text-align: center;
+  margin-top: ;
+}
+
+.topname h1 {
+visibility: hidden;
+}
+
+.topname h2 {
+  visibility: hidden;
+}
+
+#tiles{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -140px;
+}
+
+
+}

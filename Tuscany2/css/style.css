@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://github.com/oseperez13/coursera/blob/main/Tuscany2/images/veg-table.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/veg-table.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
